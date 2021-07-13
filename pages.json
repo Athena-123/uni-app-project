@@ -1,55 +1,65 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarBackgroundColor": "#1aa034",
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
 			"path": "pages/index/index"
 		},
 		{
-            "path" : "pages/detail/detail",
-            "style" : {
-				"navigationBarBackgroundColor":"#1aa034",
-				"navigationBarTitleText":"详情页"
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#1aa034",
+				"navigationBarTitleText": "详情页"
 			}
-        },
+		},
+
 		{
-            "path" : "pages/me/me",
-            "style" : {
-				"navigationBarBackgroundColor":"#1aa034",
-				"navigationBarTitleText":"个人中心"
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "回隆超市"
 			}
-        },
+		},
 		{
-            "path" : "pages/shop/shop",
-            "style" : {
-				"navigationBarTitleText":"回隆超市"
+			"path": "pages/digital/digital",
+			"style": {
+				"navigationBarTitleText": "数码电器"
 			}
-        },
+		},
 		{
-            "path" : "pages/digital/digital",
-            "style" : {
-				"navigationBarTitleText":"数码电器"
+			"path": "pages/costume/costume",
+			"style": {
+				"navigationBarTitleText": "回隆服饰"
 			}
-        },
+		},
 		{
-            "path" : "pages/costume/costume",
-            "style" : {
-				"navigationBarTitleText":"回隆服饰"
+			"path": "pages/foods/foods",
+			"style": {
+				"navigationBarTitleText": "生鲜食品"
 			}
-        },
+		},
 		{
-            "path" : "pages/foods/foods",
-            "style" : {
-				"navigationBarTitleText":"生鲜食品"
+			"path": "pages/active/active",
+			"style": {
+				"navigationBarTitleText": "9.9元拼"
 			}
-        },
+		},
 		{
-            "path" : "pages/active/active",
-            "style" : {
-				"navigationBarTitleText":"9.9元拼"
-			}
-        },
-		{
-            "path" : "pages/detailItem/detailItem",
-            "style" : {}
+			"path": "pages/detailItem/detailItem",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/pdf/pdf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
 	"globalStyle": {
@@ -58,28 +68,27 @@
 		"navigationBarBackgroundColor": "#1aa034",
 		"backgroundColor": "#F8F8F8"
 	},
-	"tabBar":{
-		"color":"#ccc",
-		"list":[
-			{
-				"pagePath":"pages/index/index",
-				"iconPath":"static/index.png",
-				"selectedIconPath":"static/index-current.png",
-				"text":"首页"
+	"tabBar": {
+		"color": "#ccc",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-current.png",
+				"text": "首页"
 			},
 			{
-				"pagePath":"pages/detail/detail",
-				"iconPath":"static/detail.png",
-				"selectedIconPath":"static/detail-current.png",
-				"text":"详情页"
+				"pagePath": "pages/detail/detail",
+				"iconPath": "static/detail.png",
+				"selectedIconPath": "static/detail-current.png",
+				"text": "详情页"
 			},
 			{
-				"pagePath":"pages/me/me",
-				"iconPath":"static/me.png",
-				"selectedIconPath":"static/me-current.png",
-				"text":"我的"
+				"pagePath": "pages/me/me",
+				"iconPath": "static/me.png",
+				"selectedIconPath": "static/me-current.png",
+				"text": "我的"
 			}
 		]
 	}
-	
+
 }
